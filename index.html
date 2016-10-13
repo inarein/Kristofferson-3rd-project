@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Kristofferson Bungay 3rd Project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+  </head>
+  <body>
+    <form action="index.html" method="post">    
+        <header class="main-header">
+            <h1>THE CODE REVIEW</h1>
+            <h2>Signup for our newsletter</h2>
+            <p>Get the latest news on how your code is doing right in your inbox</p>
+        </header>
+        
+        <hr class="line1">
+        <hr class="line2">
+
+        
+	    <fieldset>
+	    	<legend>Contact Information</legend>
+		    
+            <label for="name" class="user-info">Full Name</label>
+		    <input type="text" id="name" name="user_name" placeholder="Required"><br>
+
+		    <label for="mail" class="user-info">Email Address</label>
+		    <input type="email" id="mail" name="user_email" placeholder="Required"><br>
+
+		    <label for="phone" class="user-info">Phone Number</label>
+		    <input type="tel" id="phone" name="user_phone" placeholder=""><br>
+
+		    <label for="address" class="user-info">Street Address</label>
+		    <input type="text" id="address" name="user_address"><br>
+
+		    <label for="city" class="user-info">City</label>
+		    <input type="text" id="city" name="user_city"><br>
+
+		    <label for="state" class="user-info">State</label>
+		    <select id="state" name="user_state">
+                <option value="" disabled selected hidden>Choose State</option>
+                <option value="Alaska">AK</option>
+                <option value="Arizona">AZ</option>
+                <option value="Arkansas">AR</option>
+                <option value="California">CA</option>
+                <option value="Colorado">CO</option>
+                <option value="Connecticut">CT</option>
+                <option value="Delaware">DE</option>
+                <option value="Florida">FL</option>
+                <option value="Georgia">GA</option>
+                <option value="Hawaii">HI</option>
+                <option value="Idaho">ID</option>
+                <option value="Illinois">IL</option>
+                <option value="Indiana">IN</option>
+                <option value="Iowa">IA</option>
+                <option value="Kansas">KS</option>
+                <option value="Kentucky">KY</option>
+                <option value="Louisiana">LA</option>
+                <option value="Maine">ME</option>
+                <option value="Maryland">MD</option>
+                <option value="Massachusetts">MA</option>
+                <option value="Michigan">MI</option>
+                <option value="Minnesota">MN</option>
+                <option value="Mississippi">MS</option>
+                <option value="Missouri">MO</option>
+                <option value="Montana">MT</option>
+                <option value="Nebraska">NE</option>
+                <option value="Nevada">NV</option>
+                <option value="New Hampshire">NH</option>
+                <option value="New Jersey">NJ</option>
+                <option value="New Mexico">NM</option>
+                <option value="New York">NY</option>
+                <option value="North Carolina">NC</option>
+                <option value="North Dakota">ND</option>
+                <option value="Ohio">OH</option>
+                <option value="Oklahoma">OK</option>
+                <option value="Oregon">OR</option>
+                <option value="Pennsylvania">PA</option>
+                <option value="Rhode Island">RI</option>
+                <option value="South Carolina">SC</option>
+                <option value="South Dakota">SD</option>
+                <option value="Tennessee">TN</option>
+                <option value="Texas">TX</option>
+                <option value="Utah">UT</option>
+                <option value="Vermont">VT</option>
+                <option value="Virginina">VA</option>
+                <option value="Washington">WA</option>
+                <option value="West Virginia">WV</option>
+                <option value="Wisconsin">WI</option>
+                <option value="Wyoming">WY</option>
+		    </select><br>
+
+		    <label for="zipcode" class="user-info">Zip Code</label>
+		    <input type="text" id="zipcode" name="user_zipcode">
+	    </fieldset>
+
+	    <hr class="line2">
+
+		<fieldset>
+			<legend>Newsletter</legend>
+		    <label>Select the newsletters you would like to recieve</label><br>
+		    <input type="checkbox" id="html_news" value="html_news" name="html_news"><label class="select">   HTML News</label><br>
+		    <input type="checkbox" id="css_news" value="css_news" name="css_news"><label class="select">  CSS News</label><br>
+		    <input type="checkbox" id="javascript_news" value="javascript_news" name="javascript_news"><label class="select"> Javascript News</label><br>
+		</fieldset>
+
+
+		<fieldset>
+			<label>Newsletter Format</label><br>
+			<input type="radio" id="html" value="html" name="type"><label for="html" class="select"> HTML</label><br>
+			<input type="radio" id="plain_text" value="plain_text" name="type"><label for="plain_text" class="select" >  Plain text</label>
+		</fieldset>
+
+
+		<fieldset>
+			<label>Other topics you'd like to hear about</label><br>
+		    <textarea id="bio" name="user_bio"></textarea>
+		</fieldset>
+        
+        <hr class="line2">
+
+
+        <fieldset>
+            <label for="found-us" class="">How did you hear about us?</label>
+                <select  id="found-us" name="found-us">
+                    <option value="" disabled selected hidden>Choose One</option>
+                    <option value="facebook">Facebook</option>
+                    <option value="twitter">Twitter</option>
+                    <option value="github">Github</option>
+                    <option value="linkedin">LinkedIn</option>
+                    <option value="blog">Blog</option>
+                    <option value="friend">From a friend</option>
+                    <option value="other">Other</option>
+                </select>
+        </fieldset>
+       
+
+
+        <fieldset>
+            <button type="submit">Sign Up</button>
+		</fieldset>
+  	</form>
+
+  	<footer>
+      <p class="copyright">Copyright The Code Review</p>
+    </footer>
+
+  </body>
+</html>
